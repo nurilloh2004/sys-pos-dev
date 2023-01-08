@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  posproddb:
+    container_name: posproddb
+    image: postgres:12.2
+    environment:
+      POSTGRES_DB: db_prod_pos
+      POSTGRES_USER: pos_prod_user
+      POSTGRES_PASSWORD: pos_prod_pass
+    networks:
+      - main_prod
+    volumes:
+        - pos_data_prod:/var/lib/postgresql/posox/
+
+  posox_prod:
+    container_name: posox_prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    command: gunicorn posox.wsgi:application --bind 0.0.0.0:8000
+    volumes:
+      - static_volume_pos_prod:/home/app/web/static
+      - media_volume_pos_prod:/home/app/web/media
+    ports:
+      - "8000:8000"
+    depends_on:
+      - posproddb
+    networks:
+      - main_prod
+    env_file:
+      - .env.prod
+
+  posnginx:
+    container_name: posnginx
+    restart: always
+    build: ./nginx
+
+    ports:
+      - "7777:7777"
+    networks:
+      - main_prod
+    volumes:
+      - static_volume_pos_prod:/home/app/web/static
+      - media_volume_pos_prod:/home/app/web/media
+    depends_on:
+      - posox_prod
+
+volumes:
+    pos_data_prod:
+    static_volume_pos_prod:
+    media_volume_pos_prod:
+  
+networks:
+  main_prod:
+    driver: bridge
+  

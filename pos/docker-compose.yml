@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  db_pos:
+    image: postgres:12.2
+    environment:
+        POSTGRES_DB: db_pos
+        POSTGRES_USER: pos_user
+        POSTGRES_PASSWORD: pos_pass
+  web_pos:
+    build: .
+    command: python manage.py makemigrations &
+             python manage.py migrate &
+             python manage.py runserver 0.0.0.0:8585
+    volumes:
+      - .:/code
+    ports:
+      - "8585:8585"
+    depends_on:
+      - db_pos
+    env_file:
+      - ./.env.dev
+

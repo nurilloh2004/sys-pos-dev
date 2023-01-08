@@ -1,0 +1,2799 @@
+[
+  {
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$mNvwBcYudKaQeofaspfCdE$7FIz2OZNGyK906SFhkADLLRBXiUCNJTJ/ucx5NNENZI=",
+      "last_login": "2022-07-14T18:12:50.480Z",
+      "created_at": "2022-07-14T18:11:59.294Z",
+      "updated_at": "2022-07-14T18:11:59.321Z",
+      "username": null,
+      "first_name": null,
+      "last_name": null,
+      "fullname": null,
+      "legal_name": null,
+      "email": null,
+      "phone": "+998901234500",
+      "status": 2,
+      "language": "UZ",
+      "is_staff": true,
+      "is_superuser": true,
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.756Z",
+      "updated_at": "2022-07-14T18:12:38.756Z",
+      "name": "Toshkent shahri"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.763Z",
+      "updated_at": "2022-07-14T18:12:38.763Z",
+      "name": "Toshkent viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.769Z",
+      "updated_at": "2022-07-14T18:12:38.769Z",
+      "name": "Farg‘ona viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 4,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.774Z",
+      "updated_at": "2022-07-14T18:12:38.774Z",
+      "name": "Namangan viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 5,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.779Z",
+      "updated_at": "2022-07-14T18:12:38.779Z",
+      "name": "Andijon viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 6,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.784Z",
+      "updated_at": "2022-07-14T18:12:38.784Z",
+      "name": "Sirdaryo viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 7,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.788Z",
+      "updated_at": "2022-07-14T18:12:38.788Z",
+      "name": "Surxondaryo viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 8,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.792Z",
+      "updated_at": "2022-07-14T18:12:38.792Z",
+      "name": "Samarqand viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 9,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.797Z",
+      "updated_at": "2022-07-14T18:12:38.797Z",
+      "name": "Navoiy viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 10,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.802Z",
+      "updated_at": "2022-07-14T18:12:38.802Z",
+      "name": "Qashqadaryo viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 11,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.806Z",
+      "updated_at": "2022-07-14T18:12:38.807Z",
+      "name": "Xorazm viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 12,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.811Z",
+      "updated_at": "2022-07-14T18:12:38.811Z",
+      "name": "Jizzax viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 13,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.815Z",
+      "updated_at": "2022-07-14T18:12:38.815Z",
+      "name": "Buxoro viloyati"
+    }
+  },
+  {
+    "model": "address.region",
+    "pk": 14,
+    "fields": {
+      "created_at": "2022-07-14T18:12:38.819Z",
+      "updated_at": "2022-07-14T18:12:38.819Z",
+      "name": "Qoraqalpog‘iston Respublikasi"
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.583Z",
+      "updated_at": "2022-07-14T18:15:12.584Z",
+      "name": "Yashnobod tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.593Z",
+      "updated_at": "2022-07-14T18:15:12.593Z",
+      "name": "Yakkasaroy tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.600Z",
+      "updated_at": "2022-07-14T18:15:12.600Z",
+      "name": "Yunusobod tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 4,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.604Z",
+      "updated_at": "2022-07-14T18:15:12.604Z",
+      "name": "Shayxontohur tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 5,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.609Z",
+      "updated_at": "2022-07-14T18:15:12.609Z",
+      "name": "Chilonzor tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 6,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.614Z",
+      "updated_at": "2022-07-14T18:15:12.614Z",
+      "name": "Uchtepa tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 7,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.618Z",
+      "updated_at": "2022-07-14T18:15:12.618Z",
+      "name": "Sirg'ali tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 8,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.627Z",
+      "updated_at": "2022-07-14T18:15:12.627Z",
+      "name": "Olmazor tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 9,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.634Z",
+      "updated_at": "2022-07-14T18:15:12.634Z",
+      "name": "Mirobod tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 10,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.642Z",
+      "updated_at": "2022-07-14T18:15:12.642Z",
+      "name": "Mirzo Ulug'bek tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 11,
+    "fields": {
+      "created_at": "2022-07-14T18:15:12.649Z",
+      "updated_at": "2022-07-14T18:15:12.649Z",
+      "name": "Bektemir tumani",
+      "region": 1,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 12,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.352Z",
+      "updated_at": "2022-07-14T18:16:00.352Z",
+      "name": "Yangiyo'l tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 13,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.358Z",
+      "updated_at": "2022-07-14T18:16:00.358Z",
+      "name": "Yuqorichirchiq tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 14,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.362Z",
+      "updated_at": "2022-07-14T18:16:00.362Z",
+      "name": "Chinoz tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 15,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.366Z",
+      "updated_at": "2022-07-14T18:16:00.366Z",
+      "name": "O'rtachirchiq tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 16,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.370Z",
+      "updated_at": "2022-07-14T18:16:00.370Z",
+      "name": "Toshkent tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 17,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.374Z",
+      "updated_at": "2022-07-14T18:16:00.374Z",
+      "name": "Piskent tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 18,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.379Z",
+      "updated_at": "2022-07-14T18:16:00.379Z",
+      "name": "Parkent tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 19,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.383Z",
+      "updated_at": "2022-07-14T18:16:00.383Z",
+      "name": "Ohangaron tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 20,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.387Z",
+      "updated_at": "2022-07-14T18:16:00.387Z",
+      "name": "Oqqo'rg'on tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 21,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.392Z",
+      "updated_at": "2022-07-14T18:16:00.392Z",
+      "name": "Quyichirchiq tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 22,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.396Z",
+      "updated_at": "2022-07-14T18:16:00.396Z",
+      "name": "Qibray tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 23,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.405Z",
+      "updated_at": "2022-07-14T18:16:00.405Z",
+      "name": "Zangiota tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 24,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.416Z",
+      "updated_at": "2022-07-14T18:16:00.416Z",
+      "name": "Bo'stonliq tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 25,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.423Z",
+      "updated_at": "2022-07-14T18:16:00.423Z",
+      "name": "Bo'ka tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 26,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.428Z",
+      "updated_at": "2022-07-14T18:16:00.428Z",
+      "name": "Bekobod tumani",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 27,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.436Z",
+      "updated_at": "2022-07-14T18:16:00.436Z",
+      "name": "Yangiyo'l shahri",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 28,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.446Z",
+      "updated_at": "2022-07-14T18:16:00.446Z",
+      "name": "Chirchiq shahri",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 29,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.453Z",
+      "updated_at": "2022-07-14T18:16:00.453Z",
+      "name": "Ohangaron shahri",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 30,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.458Z",
+      "updated_at": "2022-07-14T18:16:00.458Z",
+      "name": "Olmaliq shahri",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 31,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.463Z",
+      "updated_at": "2022-07-14T18:16:00.463Z",
+      "name": "Bekobod shahri",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 32,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.468Z",
+      "updated_at": "2022-07-14T18:16:00.468Z",
+      "name": "Angren shahri",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 33,
+    "fields": {
+      "created_at": "2022-07-14T18:16:00.471Z",
+      "updated_at": "2022-07-14T18:16:00.471Z",
+      "name": "Nurafshon shahri",
+      "region": 2,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 34,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.666Z",
+      "updated_at": "2022-07-14T18:16:31.666Z",
+      "name": "Furqat tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 35,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.674Z",
+      "updated_at": "2022-07-14T18:16:31.674Z",
+      "name": "Farg'ona tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 36,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.681Z",
+      "updated_at": "2022-07-14T18:16:31.681Z",
+      "name": "Uchko'prik tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 37,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.687Z",
+      "updated_at": "2022-07-14T18:16:31.687Z",
+      "name": "O'zbekiston tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 38,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.692Z",
+      "updated_at": "2022-07-14T18:16:31.692Z",
+      "name": "Toshloq tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 39,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.696Z",
+      "updated_at": "2022-07-14T18:16:31.696Z",
+      "name": "So'x tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 40,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.700Z",
+      "updated_at": "2022-07-14T18:16:31.700Z",
+      "name": "Rishton tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 41,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.704Z",
+      "updated_at": "2022-07-14T18:16:31.704Z",
+      "name": "Oltiariq tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 42,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.708Z",
+      "updated_at": "2022-07-14T18:16:31.708Z",
+      "name": "Qo'shtepa tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 43,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.713Z",
+      "updated_at": "2022-07-14T18:16:31.713Z",
+      "name": "Quva tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 44,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.716Z",
+      "updated_at": "2022-07-14T18:16:31.716Z",
+      "name": "Yozyovon tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 45,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.726Z",
+      "updated_at": "2022-07-14T18:16:31.726Z",
+      "name": "Dang'ara tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 46,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.733Z",
+      "updated_at": "2022-07-14T18:16:31.733Z",
+      "name": "Buvayda tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 47,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.740Z",
+      "updated_at": "2022-07-14T18:16:31.740Z",
+      "name": "Bog'dod tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 48,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.745Z",
+      "updated_at": "2022-07-14T18:16:31.745Z",
+      "name": "Beshariq tumani",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 49,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.749Z",
+      "updated_at": "2022-07-14T18:16:31.749Z",
+      "name": "Qo'qon shahri",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 50,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.754Z",
+      "updated_at": "2022-07-14T18:16:31.754Z",
+      "name": "Quvasoy shahri",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 51,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.758Z",
+      "updated_at": "2022-07-14T18:16:31.758Z",
+      "name": "Marg'ilon shahri",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 52,
+    "fields": {
+      "created_at": "2022-07-14T18:16:31.763Z",
+      "updated_at": "2022-07-14T18:16:31.763Z",
+      "name": "Farg'ona shahri",
+      "region": 3,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 53,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.670Z",
+      "updated_at": "2022-07-14T18:17:27.670Z",
+      "name": "Yangiqo'rg'on tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 54,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.678Z",
+      "updated_at": "2022-07-14T18:17:27.678Z",
+      "name": "Chust tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 55,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.683Z",
+      "updated_at": "2022-07-14T18:17:27.683Z",
+      "name": "Chortoq tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 56,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.688Z",
+      "updated_at": "2022-07-14T18:17:27.688Z",
+      "name": "Uchqo'rg'on tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 57,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.693Z",
+      "updated_at": "2022-07-14T18:17:27.693Z",
+      "name": "Uychi tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 58,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.697Z",
+      "updated_at": "2022-07-14T18:17:27.697Z",
+      "name": "To'raqo'rg'on tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 59,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.703Z",
+      "updated_at": "2022-07-14T18:17:27.703Z",
+      "name": "Pop tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 60,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.708Z",
+      "updated_at": "2022-07-14T18:17:27.708Z",
+      "name": "Norin tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 61,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.713Z",
+      "updated_at": "2022-07-14T18:17:27.713Z",
+      "name": "Namangan tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 62,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.717Z",
+      "updated_at": "2022-07-14T18:17:27.717Z",
+      "name": "Mingbuloq tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 63,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.722Z",
+      "updated_at": "2022-07-14T18:17:27.722Z",
+      "name": "Kosonsoy tumani",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 64,
+    "fields": {
+      "created_at": "2022-07-14T18:17:27.728Z",
+      "updated_at": "2022-07-14T18:17:27.728Z",
+      "name": "Namangan shahri",
+      "region": 4,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 65,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.323Z",
+      "updated_at": "2022-07-14T18:18:04.323Z",
+      "name": "Shahrixon tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 66,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.339Z",
+      "updated_at": "2022-07-14T18:18:04.339Z",
+      "name": "Xo'jaobod tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 67,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.343Z",
+      "updated_at": "2022-07-14T18:18:04.343Z",
+      "name": "Ulug'nor tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 68,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.348Z",
+      "updated_at": "2022-07-14T18:18:04.348Z",
+      "name": "Paxtaobod tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 69,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.353Z",
+      "updated_at": "2022-07-14T18:18:04.353Z",
+      "name": "Oltinko'l tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 70,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.358Z",
+      "updated_at": "2022-07-14T18:18:04.358Z",
+      "name": "Marhamat tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 71,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.364Z",
+      "updated_at": "2022-07-14T18:18:04.364Z",
+      "name": "Qo'rg'ontepa tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 72,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.368Z",
+      "updated_at": "2022-07-14T18:18:04.368Z",
+      "name": "Izboskan tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 73,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.374Z",
+      "updated_at": "2022-07-14T18:18:04.374Z",
+      "name": "Jalaquduq tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 74,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.380Z",
+      "updated_at": "2022-07-14T18:18:04.380Z",
+      "name": "Buloqboshi tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 75,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.385Z",
+      "updated_at": "2022-07-14T18:18:04.385Z",
+      "name": "Bo'z tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 76,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.389Z",
+      "updated_at": "2022-07-14T18:18:04.389Z",
+      "name": "Baliqchi tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 77,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.394Z",
+      "updated_at": "2022-07-14T18:18:04.394Z",
+      "name": "Asaka tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 78,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.398Z",
+      "updated_at": "2022-07-14T18:18:04.398Z",
+      "name": "Andijon tumani",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 79,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.404Z",
+      "updated_at": "2022-07-14T18:18:04.404Z",
+      "name": "Xonabod shahri",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 80,
+    "fields": {
+      "created_at": "2022-07-14T18:18:04.410Z",
+      "updated_at": "2022-07-14T18:18:04.410Z",
+      "name": "Andijon shahri",
+      "region": 5,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 81,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.369Z",
+      "updated_at": "2022-07-14T18:18:38.369Z",
+      "name": "Xovos tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 82,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.382Z",
+      "updated_at": "2022-07-14T18:18:38.382Z",
+      "name": "Sirdaryo tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 83,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.386Z",
+      "updated_at": "2022-07-14T18:18:38.386Z",
+      "name": "Sayxunobod tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 84,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.390Z",
+      "updated_at": "2022-07-14T18:18:38.391Z",
+      "name": "Sardoba tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 85,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.395Z",
+      "updated_at": "2022-07-14T18:18:38.395Z",
+      "name": "Oqoltin tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 86,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.400Z",
+      "updated_at": "2022-07-14T18:18:38.400Z",
+      "name": "Mirzaobod tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 87,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.404Z",
+      "updated_at": "2022-07-14T18:18:38.404Z",
+      "name": "Guliston tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 88,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.408Z",
+      "updated_at": "2022-07-14T18:18:38.408Z",
+      "name": "Boyovut tumani",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 89,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.412Z",
+      "updated_at": "2022-07-14T18:18:38.412Z",
+      "name": "Shirin shahri",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 90,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.416Z",
+      "updated_at": "2022-07-14T18:18:38.416Z",
+      "name": "Yangiyer shahri",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 91,
+    "fields": {
+      "created_at": "2022-07-14T18:18:38.420Z",
+      "updated_at": "2022-07-14T18:18:38.420Z",
+      "name": "Guliston shahri",
+      "region": 6,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 92,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.584Z",
+      "updated_at": "2022-07-14T18:18:59.584Z",
+      "name": "Qumqo'rg'on tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 93,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.599Z",
+      "updated_at": "2022-07-14T18:18:59.599Z",
+      "name": "Qiziriq tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 94,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.603Z",
+      "updated_at": "2022-07-14T18:18:59.603Z",
+      "name": "Sho'rchi tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 95,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.608Z",
+      "updated_at": "2022-07-14T18:18:59.608Z",
+      "name": "Sherobod tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 96,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.615Z",
+      "updated_at": "2022-07-14T18:18:59.615Z",
+      "name": "Uzun tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 97,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.620Z",
+      "updated_at": "2022-07-14T18:18:59.620Z",
+      "name": "Termiz tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 98,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.625Z",
+      "updated_at": "2022-07-14T18:18:59.625Z",
+      "name": "Sariosiyo tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 99,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.629Z",
+      "updated_at": "2022-07-14T18:18:59.629Z",
+      "name": "Oltinsoy tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 100,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.635Z",
+      "updated_at": "2022-07-14T18:18:59.635Z",
+      "name": "Muzrobod tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 101,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.640Z",
+      "updated_at": "2022-07-14T18:18:59.640Z",
+      "name": "Jarqo'rg'on tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 102,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.649Z",
+      "updated_at": "2022-07-14T18:18:59.649Z",
+      "name": "Denov tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 103,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.654Z",
+      "updated_at": "2022-07-14T18:18:59.654Z",
+      "name": "Boysun tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 104,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.659Z",
+      "updated_at": "2022-07-14T18:18:59.659Z",
+      "name": "Angor tumani",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 105,
+    "fields": {
+      "created_at": "2022-07-14T18:18:59.664Z",
+      "updated_at": "2022-07-14T18:18:59.664Z",
+      "name": "Termiz shahri",
+      "region": 7,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 106,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.356Z",
+      "updated_at": "2022-07-14T18:19:16.356Z",
+      "name": "Qo'shrabot tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 107,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.363Z",
+      "updated_at": "2022-07-14T18:19:16.363Z",
+      "name": "Urgut tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 108,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.368Z",
+      "updated_at": "2022-07-14T18:19:16.368Z",
+      "name": "Toyloq tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 109,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.373Z",
+      "updated_at": "2022-07-14T18:19:16.373Z",
+      "name": "Samarqand tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 110,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.378Z",
+      "updated_at": "2022-07-14T18:19:16.378Z",
+      "name": "Paxtachi tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 111,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.382Z",
+      "updated_at": "2022-07-14T18:19:16.382Z",
+      "name": "Pastdarg'om tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 112,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.386Z",
+      "updated_at": "2022-07-14T18:19:16.387Z",
+      "name": "Payariq tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 113,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.392Z",
+      "updated_at": "2022-07-14T18:19:16.392Z",
+      "name": "Oqdaryo tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 114,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.396Z",
+      "updated_at": "2022-07-14T18:19:16.396Z",
+      "name": "Nurobod tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 115,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.401Z",
+      "updated_at": "2022-07-14T18:19:16.401Z",
+      "name": "Narpay tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 116,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.405Z",
+      "updated_at": "2022-07-14T18:19:16.405Z",
+      "name": "Kattaqo'rg'on tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 117,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.410Z",
+      "updated_at": "2022-07-14T18:19:16.410Z",
+      "name": "Ishtixon tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 118,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.414Z",
+      "updated_at": "2022-07-14T18:19:16.414Z",
+      "name": "Jomboy tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 119,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.418Z",
+      "updated_at": "2022-07-14T18:19:16.418Z",
+      "name": "Bulung'ur tumani",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 120,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.423Z",
+      "updated_at": "2022-07-14T18:19:16.423Z",
+      "name": "Kattaqo'rg'on shahri",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 121,
+    "fields": {
+      "created_at": "2022-07-14T18:19:16.427Z",
+      "updated_at": "2022-07-14T18:19:16.427Z",
+      "name": "Samarqand shahri",
+      "region": 8,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 122,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.541Z",
+      "updated_at": "2022-07-14T18:19:29.541Z",
+      "name": "Qiziltepa tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 123,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.554Z",
+      "updated_at": "2022-07-14T18:19:29.554Z",
+      "name": "Xatirchi tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 124,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.559Z",
+      "updated_at": "2022-07-14T18:19:29.559Z",
+      "name": "Uchquduq tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 125,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.565Z",
+      "updated_at": "2022-07-14T18:19:29.565Z",
+      "name": "Tomdi tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 126,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.576Z",
+      "updated_at": "2022-07-14T18:19:29.576Z",
+      "name": "Nurota tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 127,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.583Z",
+      "updated_at": "2022-07-14T18:19:29.583Z",
+      "name": "Navbahor tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 128,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.588Z",
+      "updated_at": "2022-07-14T18:19:29.588Z",
+      "name": "Konimex tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 129,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.593Z",
+      "updated_at": "2022-07-14T18:19:29.593Z",
+      "name": "Karmana tumani",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 130,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.600Z",
+      "updated_at": "2022-07-14T18:19:29.600Z",
+      "name": "Zarafshon shahri",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 131,
+    "fields": {
+      "created_at": "2022-07-14T18:19:29.606Z",
+      "updated_at": "2022-07-14T18:19:29.606Z",
+      "name": "Navoiy shahri",
+      "region": 9,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 132,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.656Z",
+      "updated_at": "2022-07-14T18:19:41.656Z",
+      "name": "G'uzor tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 133,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.668Z",
+      "updated_at": "2022-07-14T18:19:41.668Z",
+      "name": "Qarshi tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 134,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.675Z",
+      "updated_at": "2022-07-14T18:19:41.675Z",
+      "name": "Qamashi tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 135,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.681Z",
+      "updated_at": "2022-07-14T18:19:41.681Z",
+      "name": "Yakkabog' tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 136,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.686Z",
+      "updated_at": "2022-07-14T18:19:41.686Z",
+      "name": "Shahrisabz tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 137,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.691Z",
+      "updated_at": "2022-07-14T18:19:41.691Z",
+      "name": "Chiroqchi tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 138,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.696Z",
+      "updated_at": "2022-07-14T18:19:41.696Z",
+      "name": "Nishon tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 139,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.702Z",
+      "updated_at": "2022-07-14T18:19:41.702Z",
+      "name": "Muborak tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 140,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.707Z",
+      "updated_at": "2022-07-14T18:19:41.707Z",
+      "name": "Mirishkor tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 141,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.711Z",
+      "updated_at": "2022-07-14T18:19:41.711Z",
+      "name": "Koson tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 142,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.716Z",
+      "updated_at": "2022-07-14T18:19:41.716Z",
+      "name": "Kitob tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 143,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.720Z",
+      "updated_at": "2022-07-14T18:19:41.720Z",
+      "name": "Kasbi tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 144,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.724Z",
+      "updated_at": "2022-07-14T18:19:41.724Z",
+      "name": "Dehqonobod tumani",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 145,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.729Z",
+      "updated_at": "2022-07-14T18:19:41.729Z",
+      "name": "Shahrisabz shahri",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 146,
+    "fields": {
+      "created_at": "2022-07-14T18:19:41.733Z",
+      "updated_at": "2022-07-14T18:19:41.733Z",
+      "name": "Qarshi shahri",
+      "region": 10,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 147,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.909Z",
+      "updated_at": "2022-07-14T18:19:56.909Z",
+      "name": "Qo'shko'pir tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 148,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.920Z",
+      "updated_at": "2022-07-14T18:19:56.920Z",
+      "name": "Yangibozor tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 149,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.925Z",
+      "updated_at": "2022-07-14T18:19:56.925Z",
+      "name": "Yangiariq tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 150,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.930Z",
+      "updated_at": "2022-07-14T18:19:56.930Z",
+      "name": "Shovot tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 151,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.953Z",
+      "updated_at": "2022-07-14T18:19:56.953Z",
+      "name": "Hazorasp tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 152,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.958Z",
+      "updated_at": "2022-07-14T18:19:56.958Z",
+      "name": "Xonqa tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 153,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.963Z",
+      "updated_at": "2022-07-14T18:19:56.963Z",
+      "name": "Xiva tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 154,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.971Z",
+      "updated_at": "2022-07-14T18:19:56.971Z",
+      "name": "Urganch tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 155,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.977Z",
+      "updated_at": "2022-07-14T18:19:56.977Z",
+      "name": "Gurlan tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 156,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.982Z",
+      "updated_at": "2022-07-14T18:19:56.982Z",
+      "name": "Bog'ot tumani",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 157,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.987Z",
+      "updated_at": "2022-07-14T18:19:56.987Z",
+      "name": "Xiva shahri",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 158,
+    "fields": {
+      "created_at": "2022-07-14T18:19:56.993Z",
+      "updated_at": "2022-07-14T18:19:56.993Z",
+      "name": "Urganch shahri",
+      "region": 11,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 159,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.646Z",
+      "updated_at": "2022-07-14T18:20:12.646Z",
+      "name": "Yangiobod tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 160,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.665Z",
+      "updated_at": "2022-07-14T18:20:12.665Z",
+      "name": "G'allaorol tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 161,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.680Z",
+      "updated_at": "2022-07-14T18:20:12.680Z",
+      "name": "Sharof Rashidov tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 162,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.689Z",
+      "updated_at": "2022-07-14T18:20:12.689Z",
+      "name": "Forish tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 163,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.693Z",
+      "updated_at": "2022-07-14T18:20:12.693Z",
+      "name": "Paxtakor tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 164,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.698Z",
+      "updated_at": "2022-07-14T18:20:12.698Z",
+      "name": "Mirzacho'l tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 165,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.701Z",
+      "updated_at": "2022-07-14T18:20:12.701Z",
+      "name": "Zomin tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 166,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.705Z",
+      "updated_at": "2022-07-14T18:20:12.705Z",
+      "name": "Zafarobod tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 167,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.708Z",
+      "updated_at": "2022-07-14T18:20:12.708Z",
+      "name": "Zarbdor tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 168,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.713Z",
+      "updated_at": "2022-07-14T18:20:12.713Z",
+      "name": "Do'stlik tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 169,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.719Z",
+      "updated_at": "2022-07-14T18:20:12.719Z",
+      "name": "Baxmal tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 170,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.724Z",
+      "updated_at": "2022-07-14T18:20:12.724Z",
+      "name": "Arnasoy tumani",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 171,
+    "fields": {
+      "created_at": "2022-07-14T18:20:12.728Z",
+      "updated_at": "2022-07-14T18:20:12.728Z",
+      "name": "Jizzax shahri",
+      "region": 12,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 172,
+    "fields": {
+      "created_at": "2022-07-14T18:20:26.966Z",
+      "updated_at": "2022-07-14T18:20:26.966Z",
+      "name": "G'ijduvon tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 173,
+    "fields": {
+      "created_at": "2022-07-14T18:20:26.971Z",
+      "updated_at": "2022-07-14T18:20:26.971Z",
+      "name": "Qorako'l tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 174,
+    "fields": {
+      "created_at": "2022-07-14T18:20:26.978Z",
+      "updated_at": "2022-07-14T18:20:26.978Z",
+      "name": "Qorovulbozor tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 175,
+    "fields": {
+      "created_at": "2022-07-14T18:20:26.984Z",
+      "updated_at": "2022-07-14T18:20:26.984Z",
+      "name": "Shofirkon tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 176,
+    "fields": {
+      "created_at": "2022-07-14T18:20:26.989Z",
+      "updated_at": "2022-07-14T18:20:26.989Z",
+      "name": "Romitan tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 177,
+    "fields": {
+      "created_at": "2022-07-14T18:20:26.994Z",
+      "updated_at": "2022-07-14T18:20:26.994Z",
+      "name": "Peshku tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 178,
+    "fields": {
+      "created_at": "2022-07-14T18:20:26.998Z",
+      "updated_at": "2022-07-14T18:20:26.999Z",
+      "name": "Olot tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 179,
+    "fields": {
+      "created_at": "2022-07-14T18:20:27.003Z",
+      "updated_at": "2022-07-14T18:20:27.003Z",
+      "name": "Kogon tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 180,
+    "fields": {
+      "created_at": "2022-07-14T18:20:27.006Z",
+      "updated_at": "2022-07-14T18:20:27.006Z",
+      "name": "Jondor tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 181,
+    "fields": {
+      "created_at": "2022-07-14T18:20:27.014Z",
+      "updated_at": "2022-07-14T18:20:27.014Z",
+      "name": "Vobkent tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 182,
+    "fields": {
+      "created_at": "2022-07-14T18:20:27.021Z",
+      "updated_at": "2022-07-14T18:20:27.021Z",
+      "name": "Buxoro tumani",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 183,
+    "fields": {
+      "created_at": "2022-07-14T18:20:27.026Z",
+      "updated_at": "2022-07-14T18:20:27.026Z",
+      "name": "Kogon shahri",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 184,
+    "fields": {
+      "created_at": "2022-07-14T18:20:27.032Z",
+      "updated_at": "2022-07-14T18:20:27.032Z",
+      "name": "Buxoro shahri",
+      "region": 13,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 185,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.246Z",
+      "updated_at": "2022-07-14T18:20:41.246Z",
+      "name": "Ellikqal'a tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 186,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.254Z",
+      "updated_at": "2022-07-14T18:20:41.254Z",
+      "name": "Sho'manoy tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 187,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.259Z",
+      "updated_at": "2022-07-14T18:20:41.259Z",
+      "name": "Chimboy tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 188,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.263Z",
+      "updated_at": "2022-07-14T18:20:41.264Z",
+      "name": "Xo'jayli tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 189,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.268Z",
+      "updated_at": "2022-07-14T18:20:41.268Z",
+      "name": "To'rtko'l tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 190,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.273Z",
+      "updated_at": "2022-07-14T18:20:41.273Z",
+      "name": "Taxtako'pir tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 191,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.278Z",
+      "updated_at": "2022-07-14T18:20:41.278Z",
+      "name": "Taxiatosh tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 192,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.283Z",
+      "updated_at": "2022-07-14T18:20:41.283Z",
+      "name": "Nukus tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 193,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.287Z",
+      "updated_at": "2022-07-14T18:20:41.287Z",
+      "name": "Mo'ynoq tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 194,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.290Z",
+      "updated_at": "2022-07-14T18:20:41.290Z",
+      "name": "Qo'ng'irot tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 195,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.295Z",
+      "updated_at": "2022-07-14T18:20:41.295Z",
+      "name": "Qorao'zak tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 196,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.300Z",
+      "updated_at": "2022-07-14T18:20:41.300Z",
+      "name": "Qanliko'l tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 197,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.305Z",
+      "updated_at": "2022-07-14T18:20:41.305Z",
+      "name": "Kegeyli tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 198,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.309Z",
+      "updated_at": "2022-07-14T18:20:41.309Z",
+      "name": "Beruniy tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 199,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.314Z",
+      "updated_at": "2022-07-14T18:20:41.314Z",
+      "name": "Amudaryo tumani",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "address.district",
+    "pk": 200,
+    "fields": {
+      "created_at": "2022-07-14T18:20:41.319Z",
+      "updated_at": "2022-07-14T18:20:41.319Z",
+      "name": "Nukus shahri",
+      "region": 14,
+      "status": 2
+    }
+  },
+  {
+    "model": "dashboard.currency",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:22:26.305Z",
+      "updated_at": "2022-07-14T18:22:26.306Z",
+      "name": "UZS",
+      "value": "10900",
+      "status": 2
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:26:07.717Z",
+      "updated_at": "2022-07-14T18:26:07.717Z",
+      "parent": null,
+      "name": "Electronics",
+      "path": "Electronics",
+      "status": 2,
+      "slug": "electronics"
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-07-14T18:26:22.948Z",
+      "updated_at": "2022-07-14T18:26:22.948Z",
+      "parent": 1,
+      "name": "Telephones",
+      "path": "Electronics > Telephones",
+      "status": 2,
+      "slug": "telephones"
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-07-14T18:26:28.418Z",
+      "updated_at": "2022-07-14T18:26:28.418Z",
+      "parent": 1,
+      "name": "Computers",
+      "path": "Electronics > Computers",
+      "status": 2,
+      "slug": "computers"
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 4,
+    "fields": {
+      "created_at": "2022-07-14T18:26:52.695Z",
+      "updated_at": "2022-07-14T18:26:52.695Z",
+      "parent": 1,
+      "name": "TV, Video",
+      "path": "Electronics > TV, Video",
+      "status": 2,
+      "slug": "tv-video"
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 5,
+    "fields": {
+      "created_at": "2022-07-14T18:27:05.160Z",
+      "updated_at": "2022-07-14T18:27:05.160Z",
+      "parent": null,
+      "name": "Sports",
+      "path": "Sports",
+      "status": 2,
+      "slug": "sports"
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 6,
+    "fields": {
+      "created_at": "2022-07-14T18:27:17.382Z",
+      "updated_at": "2022-07-14T18:27:17.382Z",
+      "parent": 5,
+      "name": "Tennis",
+      "path": "Sports > Tennis",
+      "status": 2,
+      "slug": "tennis"
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 7,
+    "fields": {
+      "created_at": "2022-07-14T18:27:21.672Z",
+      "updated_at": "2022-07-14T18:27:21.672Z",
+      "parent": 5,
+      "name": "Fishing",
+      "path": "Sports > Fishing",
+      "status": 2,
+      "slug": "fishing"
+    }
+  },
+  {
+    "model": "dashboard.category",
+    "pk": 8,
+    "fields": {
+      "created_at": "2022-07-14T18:27:48.775Z",
+      "updated_at": "2022-07-14T18:27:48.775Z",
+      "parent": 5,
+      "name": "Fitness",
+      "path": "Sports > Fitness",
+      "status": 2,
+      "slug": "fitness"
+    }
+  },
+  {
+    "model": "products.attribute",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.745Z",
+      "updated_at": "2022-07-14T18:22:59.745Z",
+      "name": "Storage",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attribute",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-07-14T18:23:42.066Z",
+      "updated_at": "2022-07-14T18:23:42.066Z",
+      "name": "Color",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attribute",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-07-14T18:24:59.418Z",
+      "updated_at": "2022-07-14T18:24:59.418Z",
+      "name": "Network",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.753Z",
+      "updated_at": "2022-07-14T18:22:59.753Z",
+      "attribute": 1,
+      "value": "4 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.757Z",
+      "updated_at": "2022-07-14T18:22:59.757Z",
+      "attribute": 1,
+      "value": "8 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.760Z",
+      "updated_at": "2022-07-14T18:22:59.760Z",
+      "attribute": 1,
+      "value": "16 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 4,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.764Z",
+      "updated_at": "2022-07-14T18:22:59.764Z",
+      "attribute": 1,
+      "value": "32 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 5,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.767Z",
+      "updated_at": "2022-07-14T18:22:59.767Z",
+      "attribute": 1,
+      "value": "64 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 6,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.770Z",
+      "updated_at": "2022-07-14T18:22:59.770Z",
+      "attribute": 1,
+      "value": "128 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 7,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.773Z",
+      "updated_at": "2022-07-14T18:22:59.773Z",
+      "attribute": 1,
+      "value": "256 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 8,
+    "fields": {
+      "created_at": "2022-07-14T18:22:59.776Z",
+      "updated_at": "2022-07-14T18:22:59.777Z",
+      "attribute": 1,
+      "value": "512 GB",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 9,
+    "fields": {
+      "created_at": "2022-07-14T18:23:42.074Z",
+      "updated_at": "2022-07-14T18:23:42.074Z",
+      "attribute": 2,
+      "value": "Green",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 10,
+    "fields": {
+      "created_at": "2022-07-14T18:23:42.081Z",
+      "updated_at": "2022-07-14T18:23:42.081Z",
+      "attribute": 2,
+      "value": "Yellow",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 11,
+    "fields": {
+      "created_at": "2022-07-14T18:23:42.084Z",
+      "updated_at": "2022-07-14T18:23:42.084Z",
+      "attribute": 2,
+      "value": "Red",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 12,
+    "fields": {
+      "created_at": "2022-07-14T18:24:59.429Z",
+      "updated_at": "2022-07-14T18:24:59.429Z",
+      "attribute": 3,
+      "value": "Unlocked",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 13,
+    "fields": {
+      "created_at": "2022-07-14T18:24:59.432Z",
+      "updated_at": "2022-07-14T18:24:59.432Z",
+      "attribute": 3,
+      "value": "Verizon",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.attributevalue",
+    "pk": 14,
+    "fields": {
+      "created_at": "2022-07-14T18:24:59.434Z",
+      "updated_at": "2022-07-14T18:24:59.435Z",
+      "attribute": 3,
+      "value": "T-Mobile",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:25:29.591Z",
+      "updated_at": "2022-07-14T18:25:29.591Z",
+      "name": "Samsung",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-07-14T18:25:33.315Z",
+      "updated_at": "2022-07-14T18:25:33.315Z",
+      "name": "Apple",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.brand",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-07-14T18:25:37.949Z",
+      "updated_at": "2022-07-14T18:25:37.949Z",
+      "name": "Artel",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.measurement",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-07-14T18:28:56.447Z",
+      "updated_at": "2022-07-14T18:28:56.447Z",
+      "name": "Dona",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.measurement",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-07-14T18:29:01.256Z",
+      "updated_at": "2022-07-14T18:29:01.256Z",
+      "name": "Kilogramm",
+      "status": 2
+    }
+  },
+  {
+    "model": "products.measurement",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-07-14T18:29:05.067Z",
+      "updated_at": "2022-07-14T18:29:05.067Z",
+      "name": "Gramm",
+      "status": 2
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-10-06T10:35:08.641Z",
+      "updated_at": "2022-10-06T10:35:08.641Z",
+      "name": "Foydalanuvchi qo'shish",
+      "permission": 29
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-10-06T10:35:17.962Z",
+      "updated_at": "2022-10-06T10:35:17.962Z",
+      "name": "Foydalanuvchini ko'rish",
+      "permission": 32
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-10-06T10:35:27.524Z",
+      "updated_at": "2022-10-06T10:35:27.524Z",
+      "name": "Foydalanuvchi tahrirlash",
+      "permission": 30
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 4,
+    "fields": {
+      "created_at": "2022-10-06T10:35:34.641Z",
+      "updated_at": "2022-10-06T10:35:34.641Z",
+      "name": "Foydalanuvchi o'chirish",
+      "permission": 31
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 5,
+    "fields": {
+      "created_at": "2022-10-06T10:36:27.171Z",
+      "updated_at": "2022-10-06T10:36:27.171Z",
+      "name": "Role qo'shish",
+      "permission": 169
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 6,
+    "fields": {
+      "created_at": "2022-10-06T10:36:52.810Z",
+      "updated_at": "2022-10-06T10:36:52.810Z",
+      "name": "Do'kon qo'shish",
+      "permission": 37
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 7,
+    "fields": {
+      "created_at": "2022-10-06T10:37:13.453Z",
+      "updated_at": "2022-10-06T10:37:13.453Z",
+      "name": "Valyuta qo'shish",
+      "permission": 161
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 8,
+    "fields": {
+      "created_at": "2022-10-06T10:37:30.281Z",
+      "updated_at": "2022-10-06T10:37:30.281Z",
+      "name": "Mahsulot qo'shish",
+      "permission": 93
+    }
+  },
+  {
+    "model": "dashboard.selectedpermission",
+    "pk": 9,
+    "fields": {
+      "created_at": "2022-10-06T10:38:05.853Z",
+      "updated_at": "2022-10-06T10:38:05.853Z",
+      "name": "Hisobotlarni ko'rish",
+      "permission": 124
+    }
+  }
+]
